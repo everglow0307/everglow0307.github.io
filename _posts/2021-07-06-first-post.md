@@ -2,7 +2,7 @@
 title:  "포스팅 테스트"
 excerpt: "포스팅 소개글이다 "
 
-categories:
+categories: 
   - Git
 tags:
   - [Blog, jekyll, Github, Git]

@@ -124,7 +124,7 @@ author:
       url: "https://github.com/everglow0307"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jissu_22"
+      # url: "https://instagram.com/jissu_22"
 
 # Site Footer
 footer:
