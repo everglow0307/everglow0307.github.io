@@ -1,7 +1,7 @@
 ---
 title: "About"
-layout: archive
-permalink: about
+layout: single
+permalink: /about/
 author_profile: true
 sidebar_main: true
 ---
