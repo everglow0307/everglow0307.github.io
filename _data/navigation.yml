@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "About"
-    url: "/about/"
-  - title: "Project"
-    url: "/project/"
+  #- title: "About"
+  #  url: "/about/"
+  #- title: "Project"
+  #  url: "/project/"
   - title: "Category"
     url: "/categories/"
-  - title: "Etc"
-    url: "/etc/"
+  #- title: "Etc"
+  #  url: "/etc/"
   # - title: "Sitemap"
   #   url: /sitemap/
