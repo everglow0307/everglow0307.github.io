@@ -38,5 +38,15 @@
                 {% endfor%}
             </ul>
       </li>
+      <li>
+        <span class="nav__sub-title">MYSQL</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "mysql" %}
+                        <li><a href="/categories/mysql" class="">VUE({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor%}
+            </ul>
+      </li>
   </ul>
 </nav>

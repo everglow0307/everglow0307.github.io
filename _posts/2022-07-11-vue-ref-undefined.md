@@ -16,7 +16,7 @@ date: 2022-07-11
 ## Ref undefined 오류 뜨는 경우
 
 
- :page_with_curl: 일단, vue에서 ref는 부모컴포넌트에서 하위의 컴포넌트에 접근해서 특정 메소드를 수행할 경우와 같이 <u style="color:skyblue;">**<span style="color:skyblue;">하위 컴포넌트에 접근하기 위한 속성</span>**</u>이다.
+ :page_with_curl: 일단, vue에서 ref는 부모컴포넌트에서 하위의 컴포넌트에 접근해서 특정 메소드를 수행할 경우와 같이 <u style="color:skyblue;"><strong><span style="color:skyblue;">하위 컴포넌트에 접근하기 위한 속성</span></strong></u>이다.
 
 
 이러한 ref속성을 이용해 하위 컴포넌트의 메소드를 수행하려고 했는데, ref를 인식하지 못하는 undefined 에러가 떴다.
