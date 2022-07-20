@@ -19,7 +19,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Git</span>
+        <span class="nav__sub-title">GIT</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "github" %}
@@ -39,11 +39,11 @@
             </ul>
       </li>
       <li>
-        <span class="nav__sub-title">MYSQL</span>
+        <span class="nav__sub-title">DB</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mysql" %}
-                        <li><a href="/categories/mysql" class="">VUE({{category[1].size}})</a></li>
+                        <li><a href="/categories/mysql" class="">MYSQL({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor%}
             </ul>
