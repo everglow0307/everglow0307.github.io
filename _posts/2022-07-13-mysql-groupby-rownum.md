@@ -14,11 +14,11 @@ date: 2022-07-14
 ---
 
 ## MYSQL GROUP별로 ROWNUM 생성방법
-
+<br>
 ### :one: MYSQL ROWNUM 생성 기초
 MYSQL은 ORACLE과 같은 ROWNUM이 없기 때문에, 다음과 같은 방법으로 rownum을 만든다.
 
-```SQL
+```sql
 SELECT
     @ROWNUM:= @ROWNUM + 1,
     t.*
