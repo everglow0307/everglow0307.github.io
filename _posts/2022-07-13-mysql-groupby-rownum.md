@@ -13,8 +13,7 @@ toc_sticky: true
 date: 2022-07-14
 ---
 
-## MYSQL GROUP별로 ROWNUM 생성방법
-<br>
+
 ### :one: MYSQL ROWNUM 생성 기초
 MYSQL은 ORACLE과 같은 ROWNUM이 없기 때문에, 다음과 같은 방법으로 rownum을 만든다.
 
@@ -32,7 +31,7 @@ FROM절에서 변수 ROWNUM값을 초기화하고, SELECT절에서 ROWNUM을 +1�
 ### :two: MYSQL ROWNUM 그룹별 생성 
 응용해서, 그룹별로 ROWNUM을 매기고 싶다면 아래와 같이 사용한다.
 
-```SQL
+```sql
 SELECT (
     CASE @VAL WHEN SUBSTRING(ts.write_datetime,3,2)
     THEN @R:=@R+1 
