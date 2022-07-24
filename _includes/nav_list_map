@@ -29,11 +29,18 @@
             </ul>
       </li>
       <li>
-        <span class="nav__sub-title">VUE</span>
+        <span class="nav__sub-title">FRONT</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "vue" %}
                         <li><a href="/categories/vue" class="">VUE({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor%}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "react" %}
+                        <li><a href="/categories/react" class="">REACT({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor%}
             </ul>
